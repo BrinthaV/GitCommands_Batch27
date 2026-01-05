@@ -1,0 +1,118 @@
+/*
+{
+ margin: 0;
+ padding: 0;
+}*/
+
+.head
+{
+    text-align: center;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+a 
+{
+    color: black;
+    margin-top: 100px;
+    padding: 20px;
+    border: 2px;
+}
+
+.link
+{
+    margin-top: 30px;
+    text-align:center;
+    display:block;
+}
+
+a:hover
+{
+    color: orange;
+    background-color: white;
+}
+
+p
+{
+    margin-top: 30px;
+    text-align:center;
+    display:block;
+}
+
+.image-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(6, 128, 169);
+}
+
+.about-container
+{
+    text-align:left;
+    text-indent: 10px;
+    padding-top: 0%;
+}
+
+img 
+{
+    max-width: 100%
+}
+
+.image 
+{
+    flex-basis: 30%
+}
+
+#me 
+{
+    margin-left: 0px;        
+    font-size:20px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.table-container 
+{ 
+    max-width: 900px;
+	display:flex;
+	justify-content: space-between; 
+	margin: 0px;
+    background-color: rgb(74, 160, 189);
+} 
+
+table,tr,th,td
+{
+    border: 2px solid grey;
+    border-collapse:collapse ;
+    border-style: groove;
+    margin: 0px;
+}
+
+.t1,.t2
+{
+    
+    color: black;
+}
+
+tr{
+    text-align: center;
+}
+
+#footer-container
+{
+    margin: 20px;
+    text-align: center;
+    color: wheat;
+    border: 20px;
+    background-color: rgb(28, 106, 132);
+}
+
+.p1,.p2
+{
+    align-content: center;
+    color: black;
+    width: 10%;
+    border: 1px red;
+    background-color: rgb(74, 160, 189);
+}
